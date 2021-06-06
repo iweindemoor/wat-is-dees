@@ -1,0 +1,79 @@
+nav {
+	font-family: "Raleway", sans-serif;
+	border-bottom: rgb(92, 143, 255) solid 1px;
+}
+body {
+	gap: 100px;
+}
+h1 {
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+}
+h2 {
+	font-family: "Raleway", sans-serif;
+}
+.titelreizen {
+	padding-left: 20px;
+}
+.titeltips {
+	text-align: center;
+}
+#navigatiebutten:hover {
+	background: rgb(92, 143, 255);
+	color: white;
+}
+.card-text {
+	font-family: "raleway", sans-serif;
+}
+.btn {
+	background-color: rgb(92, 143, 255);
+	text-decoration: none;
+	color: white;
+}
+.btn:hover {
+	background-color: white;
+	color: rgb(92, 143, 255);
+}
+.card {
+	column-gap: 20px;
+}
+
+.jumbotron {
+	background: url("./foto/reis.jpg");
+	background-position: center;
+	background-size: 70rem;
+}
+footer p {
+	text-align: left;
+}
+footer {
+	background-color: rgb(40, 44, 47);
+	color: rgb(251, 250, 249);
+	margin-top: 50px;
+	width: 100%;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.links {
+	text-align: right;
+}
+
+@media (max-width: 576px) {
+	.links {
+		text-align: left;
+	}
+}
+#blog {
+	column-gap: 20px;
+	background-color: rgb(233, 236, 239);
+	border: 2px solid white;
+}
+#fotopalmboom {
+	height: 700px;
+	width: 700px;
+	position: left;
+}
